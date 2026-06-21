@@ -1,11 +1,16 @@
 package ex2;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Person {
 
 	private String name;
-	
+	public Person()
+	{
+		this.name = "Mercia";
+	}
 	@Autowired
 	private Parrot parrot;
 	public void setName(String string) {

@@ -1,8 +1,12 @@
 package ex2;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Parrot {
 
 	public Parrot() {
+		this.name = "Spooky";
 		System.out.println("Parrot created");
 		}
 	private String name;
