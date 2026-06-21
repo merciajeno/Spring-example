@@ -21,7 +21,7 @@ public class Parrot {
 	@PostConstruct
 	public void generate()
 	{
-		 this.name = "Murder Queen";
+		
 		    System.out.println("Murder Queen!!");
 	}
 	
