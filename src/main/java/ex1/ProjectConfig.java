@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-@ComponentScan
+@ComponentScan("ex1")
 public class ProjectConfig {
 
 	@Bean                        
